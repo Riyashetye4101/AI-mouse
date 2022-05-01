@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AImouse</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  ul
+  {
+    font-size:x-large;
+    font-family: sans-serif;
+  }
+  
+</style>
+</head>
+<body>
+      {% include 'navbar.html' %}
+        <br>
+      <div class="container">
+      	
+      	<h1>Recording section</h1>
+      <div class="card">
+			  <div class="card-body">
+			  		
+       <center>
+         <ul type="none">
+           <li>User can only use their right hand</li>
+           <li>For the cursor movement user need to show the first finger.</li><br>
+           <li>For left click user needs to show the first finger with thumb.</li><br>
+           <li>For right click user needs to show the thumb, first and last finger.</li><br>
+           <li>For volume control user needs to show the thumb and first two fingers.</li><br>
+         </ul>
+          <a class="btn btn-primary" href="{{url_for('active')}}">click me</a></center>
+     
+
+	  </div>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
